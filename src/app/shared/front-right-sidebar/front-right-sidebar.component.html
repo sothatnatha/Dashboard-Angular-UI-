@@ -1,0 +1,56 @@
+<div class="right-sidebar-wrapper">
+    <div class="user-profile-notification-container">
+        <div class="user-profile">
+            <div class="user-icon">
+                <img src="../../../assets/images/profiles.png" alt="" width="50px">
+            </div>
+            <div class="user-bios">
+                <p><span id="user-name">Sothatna</span> <br> <span>@sothatnatha</span></p>
+            </div>
+        </div>
+        <div class="notification-icons">
+            <button mat-raised-button color="warning" matBadge="99" matBadgePosition="before" matBadgeColor="warn">
+                <span class="material-icons-outlined">
+                    notifications
+                </span>
+            </button>
+
+        </div>
+    </div>
+    <div class="calendar-wrapper">
+        <mat-card class="demo-inline-calendar-card">
+            <mat-calendar [(selected)]="selected"></mat-calendar>
+            <p>Date: {{selected}}</p>
+
+        </mat-card>
+    </div>
+
+    <div class="activity-heading-title">
+        <h2>Activities</h2>
+        
+        <button mat-button>
+            <span class="material-icons-outlined">
+                    edit
+            </span>
+        </button>
+    </div>
+    <div class="activity-container">
+        <div class="user-cmt-section">
+            <div class="user-img">
+                <img src="../../../assets/images/commentor.png" alt="" width="50px">
+            </div>
+            <div class="name-desc">
+                <h2 style="margin: 0;">Ali Ali</h2>
+                <p style="color: #78929c;">Today, 10:30am </p>
+            </div>
+          
+        </div>
+        <div class="cmt-status">
+            <h3>Commented on your projects</h3>
+        </div>
+        <div class="cmt-box">
+            <p>That's pretty good. For the hero section, maybe you can reduce some white space</p>
+        </div>
+       
+    </div>
+</div>

@@ -1,0 +1,45 @@
+.user-profile-notification-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px;
+    .user-profile {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        line-height: 20px;
+    }
+
+
+}
+.calendar-wrapper {
+    padding: 0 20px;
+}
+.activity-heading-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.activity-container {
+    padding: 0 20px;
+    .user-cmt-section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .cmt-box {
+        padding: 10px 10px;
+        background-color: #f1f1f1;
+        padding: 10px 20px;
+        border-radius: 15px;
+        p {
+            margin: 0;
+        }
+
+    }
+
+}

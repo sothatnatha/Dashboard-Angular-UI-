@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/app.scss';
+@import "material-icons/iconfont/material-icons.css";
+
+
+:root {
+    --border-color: #78929c;
+    --header-text-color: #333;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// font-size
+
+$web-large-font-size: 16px;
+$web-medium-font-size: 14px;
+$web-small-font-size: 12px;
+
+$mobile-large-font-size: 14px;
+$mobile-medium-font-size: 12px;
+$mobile-small-font-size: 10px;
+
+$large-font-size: $web-large-font-size;
+$medium-font-size: $web-medium-font-size;
+$small-font-size: $web-small-font-size;
+
+// font-family
+
+$primary-font: 'Lato', sans-serif;
+
+// measurement
+
+$sidebar-width: 95px;
+$right-sidebar-width: 355px;
+
+@media screen and (max-width: 600px) {
+    $large-font-size: $mobile-large-font-size;
+    $medium-font-size: $mobile-medium-font-size;
+    $small-font-size: $mobile-small-font-size;
+}
